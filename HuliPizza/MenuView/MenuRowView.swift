@@ -13,11 +13,7 @@ struct MenuRowView: View {
             Image("1_100w")
             VStack {
                 Text("Huli Chicken Pizza")
-                HStack {
-                    ForEach(0..<4){item in
-                        Image("Pizza Slice")
-                    }
-                }
+                RatingsView()
             }
             Spacer()
         }
@@ -30,3 +26,5 @@ struct MenuRowView_Previews: PreviewProvider {
         MenuRowView()
     }
 }
+
+

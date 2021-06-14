@@ -19,8 +19,6 @@ struct ContentHeaderView: View {
                     .offset(x:-45)
             }
         }
-        Text("Order Pizza")
-            .font(.largeTitle)
     }
 }
 
